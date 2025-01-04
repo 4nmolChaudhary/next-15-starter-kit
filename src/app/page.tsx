@@ -8,9 +8,13 @@ export default function Home() {
       <main className='flex justify-center h-screen w-full'>
         <div className='lg:w-[948px] bg-white border-x w-full flex flex-col justify-start gap-8 items-center z-10'>
           <div className='h-16 w-full text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)] py-4 px-2 border-b'>⚡Next 15 Starter kit</div>
-          {/* <h2 className='text-6xl font-semibold'>Turborepo starter kit for Next.js apps</h2>
-          <span className='mb-2 text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]'>A monorepo template designed to have everything you need to build with Next 15 & React 19. Free and open source, forever.</span>
-          <Button>Read the docs</Button> */}
+          <div className='px-6 py-2 flex flex-col gap-3 justify-center items-center'>
+            <h2 className='text-6xl font-semibold'>Turborepo starter kit for Next 15</h2>
+            <div className='mb-2 text-sm text-center font-[family-name:var(--font-geist-mono)]'>
+              A monorepo template designed to have everything you need to build with Next 15 & React 19. <br /> Free and open source, forever.
+            </div>
+            <Button>Read the docs</Button>
+          </div>
         </div>
       </main>
     </div>
