@@ -8,7 +8,7 @@ import { useCounterStore } from '@/store/counter'
 export default function Home() {
   const { counter, setCounter } = useCounterStore()
   return (
-    <div className='flex min-h-screen flex-col items-center justify-items-center w-full font-[family-name:var(--font-inter-tight)]'>
+    <div className='flex min-h-screen flex-col   items-center justify-items-center w-full font-[family-name:var(--font-inter-tight)]'>
       <div style={{ backgroundSize: '22.05px auto', backgroundPosition: 'top left', opacity: '0.1' }} className='absolute h-full top-0 right-0 left-0 -z-1 bg-repeat bg-[url(https://framerusercontent.com/images/zkZcqLYKrbf3IcoLGmkQF4odXvY.svg)]'></div>
       <div className='absolute w-full top-0 right-0 left-0 z-10 border-b h-16'></div>
       <main className='flex justify-center h-screen w-full'>
